@@ -5,3 +5,54 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+aside{
+    position: fixed;
+    top:0;
+    left:0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    width:297px;
+
+    padding:41px 30px 30px; 
+
+    color:white;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    background-color: #90ccac;
+}
+
+#top-side{
+    display: flex;
+    flex-direction: column;
+}
+
+#top-side h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+aside a {
+    color:white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin-bottom: 18px;
+}
+
+
+main{
+    padding:49px 86px 49px calc(297px + 86px);
+}
